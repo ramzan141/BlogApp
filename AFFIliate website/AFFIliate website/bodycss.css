@@ -1,0 +1,20 @@
+.bg{
+    /* The image used */
+    flex: auto;
+    position: absolute;
+   
+    background-image: url("1.jpg");
+  
+    /* Full height */
+    height:100%;
+    width: 100%;
+  
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+  
+  /* Header/logo Title */
+  

@@ -1,0 +1,94 @@
+<style>
+
+
+
+
+
+
+/* Style the body */
+body {
+font-family: Arial;
+margin: 0;
+background-color:#1abc9c;
+}
+
+/* Header/logo Title */
+.header1 {
+padding: 60px;
+text-align: center;
+background: #1abc9c;
+color: white;
+width: 100%;
+}
+
+
+
+/* Column container */
+.row1 {  
+display: flex;
+flex-wrap: wrap;
+}
+/* Column container */
+.row2 {  
+   display: flex;
+   flex-wrap: wrap;
+   }
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side1 {
+flex: 75%;
+background-color: #1abc9c;
+padding: 20px;
+}
+.subside2 {
+   flex: 50%;
+   background-color: #1abc9c;
+   padding: 20px;
+   }
+
+   .subside1 {
+      flex: 50%;
+      background-color: #1abc9c;
+      padding: 20px;
+      }
+/* Main column */
+/* Main column */
+.main1 {
+   flex:20%;
+   background-color: #1abc9c;
+   padding: 20px;
+   
+   
+   }
+   
+/* Fake image, just for this example */
+.fakeimg {
+background-color:white;
+width: 100%;
+padding: 20px;
+}
+/*for main photo*/
+.fakeimg1 {
+background-color:white;
+padding: 5px;
+border: 2px solid #1abc9c;
+
+}
+/* Footer */
+.footer1 {
+padding: 8px;
+text-align: center;
+background-color: #1abc9c;
+width:100%;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+.row1, .navbar1 {   
+flex-direction: column;
+}
+}
+
+
+</style>
